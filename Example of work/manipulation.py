@@ -1,0 +1,8 @@
+str_manip = input ("what is your favourite movie quote?")
+print (len(str_manip))
+print (str_manip [-1])
+new =  str_manip.replace ('s','@')
+print (new)
+print (str_manip [:-4:-1])
+new_2 = (str_manip[0:3])+(str_manip[-2]) + (str_manip [-1])
+print (new_2)
